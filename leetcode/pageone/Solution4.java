@@ -10,7 +10,7 @@ package parafeel.pageone;
  *           对一个链表进行排序，要求时间复杂度为O（nlogn）
  */
 
-public class Soliton4 {
+public class Solution4 {
 	/**
 	 * 使用归并排序，利用递归进行块排序。块排序就是将数据分为 若干个块，对每个块进行排序，排序之后再合并。
 	 * 对于链表的思路是，把链表分成左右两部分，对两部分进行排序。进这两部分的左右两部分，
